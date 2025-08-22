@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --primary-text-color: #566573;
+  --accent-color: #85929E;
+  --accent-hover-color: #5D6D7E;
+  --background-color: #F4F6F7;
+  --card-background: #FFFFFF;
+  --secondary-text-color: #AEB6BF;
+  --shadow-color: rgba(86, 101, 115, 0.15);
+
+  /* Border Radius */
+  --border-radius-card: 12px;
+  --border-radius-button: 20px;
+
+  /* Button Colors */
+  --like-color: #5DADE2; /* Soft Blue */
+  --like-hover-color: #3498DB;
+  --comment-color: #7DCEA0; /* Muted Green */
+  --comment-hover-color: #58D68D;
+  --follow-color: #C39BD3; /* Soft Lavender */
+  --follow-hover-color: #AF7AC5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

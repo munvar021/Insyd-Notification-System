@@ -1,0 +1,79 @@
+.eventTriggerContainer {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.eventTriggerContainer h3 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.eventButton {
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-button);
+  padding: 0.8rem 1rem;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.eventButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.likeButton {
+  background-color: var(--like-color);
+}
+.likeButton:hover {
+  background-color: var(--like-hover-color);
+}
+
+.commentButton {
+  background-color: var(--comment-color);
+}
+.commentButton:hover {
+  background-color: var(--comment-hover-color);
+}
+
+.followButton {
+  background-color: var(--follow-color);
+}
+.followButton:hover {
+  background-color: var(--follow-hover-color);
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .eventTriggerContainer {
+    padding: 1.5rem;
+  }
+  .eventButton {
+    display: inline-block;
+    width: auto;
+    margin: 0 0.5rem;
+    font-size: 16px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .eventTriggerContainer {
+    padding: 2rem;
+  }
+  .eventButton {
+    padding: 1rem 1.5rem;
+    font-size: 16px; /* Adjusted for better balance */
+  }
+}
