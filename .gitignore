@@ -10,3 +10,6 @@
 
 # Production
 /client/build
+
+# System Files
+.DS_Store
